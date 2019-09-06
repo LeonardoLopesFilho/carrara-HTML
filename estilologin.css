@@ -1,0 +1,88 @@
+
+body {
+ 	
+  background-image:url('fundo2.jpg');
+  font-family: verdana;
+}
+table{
+
+	border-color:#000000;
+	background-color:#E0FFFF;
+	border: 5px; 
+	border-style: solid; 
+	border-radius: 5px; 
+	padding: 15px; 
+
+}
+h1.titulos {
+
+  color:#FF8C00;
+  text-align: center;
+  margin-top: 100px;
+
+}
+td.nomes{
+
+	text-align: left;
+	margin-top: 100px;
+	padding: 10px;
+	font-family:verdana; 
+	font-size:20px;
+}
+.btn{
+
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+
+}
+.btn-green{
+
+	background:green;
+	color:#FFFFFF;
+	box-shadow:0 5px 0 #003d00; 
+
+}
+.btn-green:hover{
+
+	background:#006000;
+	color:#FFFFFF;
+	box-shadow:0 5px 0 #003f00; 
+
+}
+.btn-green:active{
+
+	position:relative;
+	top:5px;	
+	box-shadow:none; 
+}
+input.btn-red{
+
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+input.btn-red{
+
+	background:#FF0000;
+	color:#FFFFFF;
+	box-shadow:0 5px 0 #8B0000; 
+}
+input.btn-red:hover{
+
+	background:#B22222;
+	color:#FFFFFF;
+	box-shadow:0 5px 0 #A52A2A; 
+}
+input.btn-red:active{
+
+	position:relative;
+	top:5px;	
+	box-shadow:none; 
+}
